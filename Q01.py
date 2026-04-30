@@ -14,3 +14,18 @@
 # Sample Output:  Grade: B
 
 # --- YOUR CODE HERE ---
+grade=int(input("Enter a number :"))
+
+
+if(90<=grade<=100):
+    print("Grade: A")
+elif(80<=grade<90):
+    print("Grade: B")
+elif(70<=grade<80):
+    print("Grade: C")
+elif(60<=grade<70):
+    print("Grade: D")
+elif(0<=grade<60):
+    print("Grade: F")
+else:
+    print("Invalid score")
