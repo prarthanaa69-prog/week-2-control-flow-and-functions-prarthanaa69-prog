@@ -10,3 +10,13 @@
 # Sample Output 2:  Reversed: 5
 
 # --- YOUR CODE HERE ---
+n=int(input("Enter a number: "))
+
+rev=0
+rem=0
+while(n!=0):
+    rem=int(n%10)
+    rev=rev*10+rem
+    n=int(n/10)
+
+print("Reversed: ",rev)
